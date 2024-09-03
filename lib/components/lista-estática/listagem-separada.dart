@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:igor_bancaria/components/item-listagem.dart';
+import 'package:igor_bancaria/components/lista-est%C3%A1tica/item-listagem.dart';
 
 class ListagemSeparada extends StatelessWidget {
   List<String>? dados;

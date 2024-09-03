@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class ItemListagem extends StatelessWidget {
-  List<String>? dados;
+  List<dynamic>? dados;
   int index;
 
   ItemListagem({super.key, this.dados, this.index = 0});

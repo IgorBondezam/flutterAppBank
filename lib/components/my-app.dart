@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:igor_bancaria/components/listagem-separada.dart';
+import 'package:igor_bancaria/components/form/formulario.dart';
+import 'package:igor_bancaria/components/lista-est%C3%A1tica/listagem-separada.dart';
 
 class MyApp extends StatelessWidget {
   MyApp({super.key});
@@ -25,6 +26,7 @@ class MyApp extends StatelessWidget {
               ),
             ),
             Expanded(child: Card(child: ListagemSeparada(dados: dados))),
+            Expanded(child: Card(child: Formulario())),
           ]),
         ));
   }
